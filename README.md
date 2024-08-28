@@ -5,26 +5,48 @@ Welcome to the personal website of Professor Zhang Xuming, a professor  at the
 
 ## About
 
-This website serves as a platform to showcase Professor Zhang's research, publications, and contributions to the field. Here, you can find information on his work, current projects, and contact details.
+This website serves as a platform to showcase Professor Zhang's research, publications, and contributions to the field. Here, you can find information on his work, current projects, and contact details in[here](https://apzxm.github.io/polyuzxm/polyu_default.html).
+
+## Group Members
+
+A comprehensive list of Professor Zhang's group members can be found [here](https://apzxm.github.io/polyuzxm/polyu_group_members.html).
 
 ## Research Interests
 
 A comprehensive list of Professor Zhang's research can be found [here](https://apzxm.github.io/polyuzxm/polyu_research.html).
 
+## Teaching Materials
+
+A comprehensive list of Professor Zhang's research can be found [here](https://apzxm.github.io/polyuzxm/polyu_teaching.html).
+
 ## Publications
 
 A comprehensive list of Professor Zhang's publications can be found [here](https://apzxm.github.io/polyuzxm/polyu_publications.html).
 
+## Professional Service
+
+A comprehensive list of Professor Zhang's professional service can be found [here](https://apzxm.github.io/polyuzxm/polyu_professional_service.html).
+
+## Recruitments
+
+A comprehensive list of Professor Zhang's recruitments can be found [here](https://apzxm.github.io/polyuzxm/polyu_recruitments.html).
+
+## Awards
+
+A comprehensive list of Professor Zhang's awards can be found [here](https://apzxm.github.io/polyuzxm/polyu_awards.html).
+
+## News
+
+A comprehensive list of Professor Zhang's nes can be found [here](https://apzxm.github.io/polyuzxm/polyu_new.html).
+
 ## Contact
 
-Feel free to reach out via email at: [xuming.zhang@polyu.edu.hk](xuming.zhang@polyu.edu.hk).
+Feel free to reach out via email at: [xuming.zhang@polyu.edu.hk](mailto:xuming.zhang@polyu.edu.hk).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License .
 
 ## Acknowledgments
-
-Special thanks to everyone who contributed to the development of this website.
 
 Thank you for visiting!
