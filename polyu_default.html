@@ -3,92 +3,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Default</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-    }
-
-    .menu-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      background: #f0f0f0;
-    }
-
-    #main-menu-list {
-      display: flex;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      flex-wrap: nowrap;
-      overflow: hidden;
-    }
-
-    .menu-item {
-      display: inline-block;
-      padding: 10px;
-      text-decoration: none;
-      color: #000;
-    }
-
-    .menu-item:hover {
-      background-color: #ddd;
-    }
-
-    #hamburger {
-      display: none;
-      flex-direction: column;
-      justify-content: space-around;
-      width: 30px;
-      height: 30px;
-      cursor: pointer;
-    }
-
-    #hamburger div {
-      width: 100%;
-      height: 4px;
-      background-color: #000;
-    }
-
-    #menu-block {
-      display: none;
-      flex-direction: column;
-      align-items: flex-start;
-      background: #f0f0f0;
-      position: fixed;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 250px;
-      z-index: 1000;
-      padding: 10px;
-    }
-
-    .menu-close {
-      align-self: flex-end;
-      cursor: pointer;
-      padding: 10px;
-    }
-
-    .menu-block-item {
-      display: block;
-      padding: 10px;
-      text-decoration: none;
-      color: #000;
-    }
-
-    .menu-block-item:hover {
-      background-color: #ddd;
-    }
-
-    @media (max-width: 768px) {
-      #hamburger {
-        display: flex;
-      }
-    }
-  </style>
     <meta name="msapplication-tap-highlight" content="no">
     
     <link href="./polyu_default_files/1jwyl1.css" media="print" rel="stylesheet">
@@ -165,50 +79,54 @@
 	<span class="sit-w"><span class="sit-c"></span></span>
 </span></div>
 						</div>
+						<div class="cart-and-mobile">
+							
 
-						  <div class="menu-container">
-    <ul class="level-1" id="main-menu-list">
-		<li class="wnd-active wnd-homepage" >
+                            
+
+							<div id="menu-mobile">
+								<a href="https://apzxm.github.io/polyuzxm/polyu_default.html" id="menu-submit"><span></span>選單</a>
+							</div>
+						</div>
+
+						<div id="menu-slider">
+							<div id="menu-block">
+								<nav id="menu" data-align="centered" class="centered" data-type="sliding"><div class="menu-font menu-wrapper">
+	<a href="https://apzxm.github.io/polyuzxm/polyu_default.html" class="menu-close" rel="nofollow" title="Close Menu"></a>
+	<ul class="level-1">
+		<li class="wnd-active wnd-homepage" style="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_default.html"><span class="menu-item-text">Home</span></a>
 			
-		</li>
+		</li><li style="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_group_members.html"><span class="menu-item-text">Group Members</span></a>
 			
-		</li>
+		</li><li style="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_research.html"><span class="menu-item-text">Research</span></a>
 			
-		</li>
+		</li><li style="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_teaching.html"><span class="menu-item-text">Teaching</span></a>
 			
-		</li>
+		</li><li style="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_publications.html"><span class="menu-item-text">Publications</span></a>
 			
-		</li>
+		</li><li style="" class="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_professional_service.html"><span class="menu-item-text">Professional Service</span></a>
 			
-		</li>
+		</li><li style="" class="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_recruitments.html"><span class="menu-item-text">Recruitments</span></a>
 			
-		</li>
+		</li><li style="" class="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_awards.html"><span class="menu-item-text">Awards</span></a>
 			
-		</li>
+		</li><li style="" class="">
 			<a class="menu-item" href="https://apzxm.github.io/polyuzxm/polyu_news.html"><span class="menu-item-text">News</span></a>
 			
 		</li>
 	</ul>
-	    <div id="hamburger">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-</div>
-						  <div id="menu-block">
-    <span class="menu-close">Close</span>
-    <ul id="mobile-menu-list"></ul>
-  </div>
-							
-						
+	<span class="more-text">更多</span>
+</div></nav>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -392,56 +310,6 @@ the Zhang Xuming's Group.&nbsp;</span>
         </footer>
     </div>
 </div>
-	  <script>
-    document.getElementById('hamburger').addEventListener('click', function() {
-      var menuBlock = document.getElementById('menu-block');
-      if (menuBlock.style.display === 'none' || menuBlock.style.display === '') {
-        menuBlock.style.display = 'flex';
-      } else {
-        menuBlock.style.display = 'none';
-      }
-    });
-
-    document.querySelector('.menu-close').addEventListener('click', function() {
-      document.getElementById('menu-block').style.display = 'none';
-    });
-
-    function handleResize() {
-      var menuItems = document.querySelectorAll('#main-menu-list > li');
-      var hamburger = document.getElementById('hamburger');
-      var availableWidth = window.innerWidth - hamburger.offsetWidth - 40; // Adjust as needed for padding/margin
-      var totalWidth = 0;
-      var moreItems = [];
-
-      menuItems.forEach(function(item) {
-        item.style.display = 'inline-block';
-        totalWidth += item.offsetWidth;
-        if (totalWidth > availableWidth) {
-          moreItems.push(item);
-          item.style.display = 'none';
-        }
-      });
-
-      var mobileMenuList = document.getElementById('mobile-menu-list');
-      mobileMenuList.innerHTML = '';
-      moreItems.forEach(function(item) {
-        var clonedItem = item.cloneNode(true);
-        clonedItem.style.display = 'block';
-        var aTag = clonedItem.querySelector('a');
-        aTag.className = 'menu-block-item';
-        mobileMenuList.appendChild(clonedItem);
-      });
-
-      if (moreItems.length > 0) {
-        hamburger.style.display = 'flex';
-      } else {
-        hamburger.style.display = 'none';
-      }
-    }
-
-    window.addEventListener('resize', handleResize);
-    window.addEventListener('load', handleResize);
-  </script>
 
 
 </body></html>
